@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "active_index": 0,
+  "inventory": {
+    "Heal Patch": 3
+  },
+  "party": [
+    {
+      "name": "Bytebug",
+      "level": 3,
+      "max_hp": 28,
+      "current_hp": 28,
+      "attack": 9,
+      "defense": 5,
+      "moves": [
+        {
+          "name": "Print",
+          "power": 8,
+          "description": "Sends a bright output burst."
+        },
+        {
+          "name": "Debug",
+          "power": 11,
+          "description": "Finds a weakness in the target."
+        }
+      ]
+    }
+  ]
+}

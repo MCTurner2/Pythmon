@@ -1,0 +1,2 @@
+[console_scripts]
+pythmon = pythmon.main:main

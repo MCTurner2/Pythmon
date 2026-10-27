@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pythmon"
+version = "0.1.0"
+description = "A classic 2D Pokemon-inspired game built with the 2D Game Engine"
+requires-python = ">=3.10"
+dependencies = [
+    "pygame-ce>=2.5",
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pythmon = ["data/maps/*.txt"]
+
+[project.scripts]
+pythmon = "pythmon.main:main"

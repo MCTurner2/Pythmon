@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: pythmon
+Version: 0.1.0
+Summary: A classic 2D Pokemon-inspired game built with the 2D Game Engine
+Requires-Python: >=3.10
+Requires-Dist: pygame-ce>=2.5
