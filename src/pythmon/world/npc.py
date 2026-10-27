@@ -8,6 +8,7 @@ from pythmon.world.map import GameMap, MapEntity
 NPC_DIALOGUE = (
     "Welcome to Pythmon! I am Professor Stack.",
     "In this world, wild programs roam beyond the town.",
+    "You can catch them and train them to battle other trainers."
 )
 
 

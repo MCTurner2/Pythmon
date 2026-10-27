@@ -4,6 +4,7 @@ from game_engine.engine import GameEngine
 
 from pythmon.game import PythmonGame
 
+# main
 
 def main() -> None:
     """Create the engine and run the Pythmon prototype."""
